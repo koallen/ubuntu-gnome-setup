@@ -68,22 +68,6 @@ Generate a key pair for use with SSH
 $ ssh-keygen -t rsa
 ```
 
-#### Vim
-
-Install Vim with
-
-```bash
-$ sudo apt-get install -y vim
-```
-
-Create `~/.vimrc` with the content from my [dotfile repo](https://github.com/koallen/dotfiles). Then install all the plugins with Vundle
-
-```bash
-$ wget -O ~/.vimrc https://raw.githubusercontent.com/koallen/dotfiles/master/.vimrc
-$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-$ vim +PluginInstall +qall
-```
-
 #### Git
 
 First install Git with
@@ -100,3 +84,19 @@ $ git config --global user.email "weifengzi2009@gmail.com"
 ```
 
 Store public key generated with `ssh-keygen` on GitHub.
+
+#### Vim
+
+Install Vim with
+
+```bash
+$ sudo apt-get install -y vim
+```
+
+Create `~/.vimrc` with the content from my [dotfile repo](https://github.com/koallen/dotfiles). Then install all the plugins with Vundle
+
+```bash
+$ wget -O ~/.vimrc https://raw.githubusercontent.com/koallen/dotfiles/master/.vimrc
+$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+$ vim +PluginInstall +qall
+```
