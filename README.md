@@ -100,3 +100,16 @@ $ wget -O ~/.vimrc https://raw.githubusercontent.com/koallen/dotfiles/master/.vi
 $ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 $ vim +PluginInstall +qall
 ```
+
+#### Java
+
+```bash
+$ sudo add-apt-repository ppa:webupd8team/java
+$ sudo apt-get update
+$ sudo apt-get install -y oracle-java8-installer
+```
+
+## GNOME plugins
+
+- Removable drive menu
+- [System-monitor](https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet#manual-install)
