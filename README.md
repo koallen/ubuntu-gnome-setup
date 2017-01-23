@@ -14,10 +14,22 @@ In `Tweak Tool`, set `GTK+` theme to be `Numix` and `Icons` theme to be `Numix-C
 
 ## GUI applications
 
-- Google Chrome
-    - Chrome extensions
-- Spotify
-- Netease Music
+### Google Chrome
+
+[Download Google Chrome](https://www.google.com/chrome/browser/desktop/index.html)
+
+### Spotify
+
+```bash
+$ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys BBEBDCB318AD50EC6865090613B00F1FD2C19886
+$ echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
+$ sudo apt-get update
+$ sudo apt-get install spotify-client
+```
+
+### Netease Music
+
+[Download Netease Music](http://s1.music.126.net/download/pc/netease-cloud-music_1.0.0_amd64_ubuntu16.04.deb)
 
 ## System settings
 
@@ -27,7 +39,7 @@ Add `Chinese (pinyin)` as one of the input sources.
 
 ### Key mapping
 
-Switch CapsLock and left Ctrl key
+Swap CapsLock and left Ctrl key
 
 ### Font
 
@@ -42,6 +54,7 @@ Use Zsh (together with oh-my-zsh) instead of Bash
 ```bash
 $ sudo apt-get install -y zsh
 $ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+$ chsh -s `which zsh`
 ```
 
 ### Terminal appearance
