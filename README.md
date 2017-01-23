@@ -94,6 +94,7 @@ Username and email should be configured for Git before commiting anything.
 ```bash
 $ git config --global user.name "Siyuan Liu"
 $ git config --global user.email "weifengzi2009@gmail.com"
+$ git config --global push.default simple
 ```
 
 Store public key generated with `ssh-keygen` on GitHub.
