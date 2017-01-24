@@ -2,6 +2,8 @@
 
 ## Themes
 
+### Icon theme
+
 Install the `numix-icon-theme-circle` theme
 
 ```bash
@@ -10,7 +12,21 @@ $ sudo apt-get update
 $ sudo apt-get install numix-icon-theme-circle
 ```
 
-In `Tweak Tool`, set `GTK+` theme to be `Numix` and `Icons` theme to be `Numix-Circle`.
+In `Tweak Tool`, set `Icons` theme to be `Numix-Circle`.
+
+### GTK & GNOME shell theme
+
+Install the `arc-theme`
+
+```bash
+$ sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04/ /' > /etc/apt/sources.list.d/arc-theme.list"
+$ sudo apt-get update
+$ sudo apt-get install arc-theme
+```
+
+Set `GTK+` theme and `Shell theme` to be `Arc-Dark`.
+
+(**Note**: Shell theme may be disabled by default, the `User themes` GNOME extension need to be enabled first)
 
 ## GUI applications
 
@@ -126,4 +142,14 @@ $ sudo apt-get install -y oracle-java8-installer
 ## GNOME plugins
 
 - Removable drive menu
+- User themes
 - [System-monitor](https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet#manual-install)
+- [Media player indicator](https://github.com/eonpatapon/gnome-shell-extensions-mediaplayer)
+
+## Fixes
+
+### Plymouth crash
+
+```bash
+$ sudo chown -R : /sbin/plymouthd
+```
