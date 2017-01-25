@@ -47,6 +47,10 @@ $ sudo apt-get install spotify-client
 
 [Download Netease Music](http://s1.music.126.net/download/pc/netease-cloud-music_1.0.0_amd64_ubuntu16.04.deb)
 
+### Slack
+
+[Download Slack](https://downloads.slack-edge.com/linux_releases/slack-desktop-2.4.2-amd64.deb)
+
 ## System settings
 
 ### Input method
