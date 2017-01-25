@@ -124,7 +124,7 @@ Store public key generated with `ssh-keygen` on GitHub.
 Install Vim with
 
 ```bash
-$ sudo apt-get install -y vim
+$ sudo apt-get install -y vim-nox
 ```
 
 Create `~/.vimrc` with the content from my [dotfile repo](https://github.com/koallen/dotfiles). Then install all the plugins with Vundle
