@@ -59,11 +59,14 @@ Add `Chinese (pinyin)` as one of the input sources.
 
 ### Key mapping
 
-Swap CapsLock and left Ctrl key
+Set these in GNOME Tweak Tool
+
+- Swap CapsLock and left Ctrl key
+- Swap Alt and Win key (if using a Mac keyboard)
 
 ### Font
 
-[Modify the priority of Noto Sans CJK](https://www.zhihu.com/question/47141667/answer/104906870)
+[Modify the priority of Noto Sans CJK](https://www.zhihu.com/question/47141667/answer/104906870) (for displaying Simplified Chinese properly)
 
 ## Terminal
 
