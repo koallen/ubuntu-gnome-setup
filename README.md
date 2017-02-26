@@ -137,6 +137,14 @@ $ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 $ vim +PluginInstall +qall
 ```
 
+#### tmux
+
+```bash
+$ sudo apt-get install -y tmux
+```
+
+Configuration available in my [dotfile repo](https://github.com/koallen/dotfiles).
+
 #### Java
 
 ```bash
